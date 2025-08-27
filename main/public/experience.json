@@ -1,0 +1,26 @@
+{
+    "object": "Experience slides list",
+    "slides": [
+        {
+            "header": "SULI Intern at ORNL",
+            "date": "Summer 2023",
+            "bullets": [
+                "Committed changes to group Github repositories",
+                "Presented my contributions at meetings",
+                "Designed object recognition for point clouds",
+                "Utilized the KD-Tree nearest neighbor(s) search algorithm"
+            ]
+        },
+
+        {
+            "header": "SULI Intern at ORNL",
+            "date": "Summer 2024",
+            "bullets": [
+                "Reinforced Github practices and workflow",
+                "Honed my communication skills for poster presentations",
+                "Fine-tuned large language models in zero-shot learning conditions",
+                "Implemented queue-based breadth-first search algorithm"
+            ]
+        }
+    ]
+}
