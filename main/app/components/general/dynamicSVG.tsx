@@ -20,7 +20,7 @@ export default function DynamicSVG(props: DynamicSVGProps) {
 
     useEffect(() => {
         (async () => {
-            const res = await fetch(`\\api\\images\\${props.path}`);
+            const res = await fetch(`svgs/${props.path}`);
             const rawSVG = await res.text();
             const viewBox = rawSVG.substring(rawSVG.indexOf("viewBox")).split("\"")[1].split(" ").map(x => parseFloat(x));
 
