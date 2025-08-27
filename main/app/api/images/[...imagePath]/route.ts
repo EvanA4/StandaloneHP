@@ -4,7 +4,7 @@ import { join } from "path";
 
 export async function GET(
     request: Request,
-    { params }: { params: { imagePath: string[] } }
+    { params }: { params: Promise<{ imagePath: string[] }> }
 ) {
     const { imagePath } = await params;
 
