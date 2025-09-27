@@ -69,9 +69,7 @@ export const HARDCODED_PROJECTS: Project[] = [
         link: "https://github.com/EvanA4/C-Ray-Tracer",
         summary: "A minimalistic, multithreaded ray tracer written entirely in the C programming language. Simulates black holes!",
         flags: [
-            "svelte",
-            "sequelize",
-            "tailwindcss"
+            "c"
         ]
     },
     {
@@ -112,8 +110,10 @@ export const HARDCODED_PROJECTS: Project[] = [
         link: "https://github.com/EvanA4/BlackHole",
         summary: "Uses numeric integration to simulate the paths of photons around a Schwarzschild black hole and display the results to the screen. All in real-time!",
         flags: [
-            "html",
-            "css"
+            "nextjs",
+            "tailwindcss",
+            "threejs",
+            "opengl"
         ]
     },
     {
